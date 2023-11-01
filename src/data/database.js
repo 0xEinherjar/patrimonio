@@ -1,5 +1,5 @@
 import { MongoClient, ServerApiVersion } from "mongodb";
-const uri = "mongodb+srv://rodrigo:rodrigo@cluster0.gapyce8.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongo";
 
 export default class Database {
     static client = new MongoClient(uri, {
